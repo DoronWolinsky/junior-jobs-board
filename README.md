@@ -1,2 +1,2 @@
 # junior-jobs-board
-Junior jobs board in the tech industry.
+Junior jobs board for engeniring students and fresh graduates. 
