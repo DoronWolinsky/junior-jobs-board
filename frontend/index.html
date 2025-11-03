@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Junior Jobs Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Junior Jobs Board</h1>
+    </header>
+
+    <section id="job-list">
+        <h2>Available Jobs</h2>
+        <ul id="jobs"></ul>
+    </section>
+    <section id="add-job">
+        <h2>Add a Job</h2>
+        <form id="job-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="company" placeholder="Company" required>
+            <input type="text" id="location" placeholder="Location">
+            <input type="text" id="tags" placeholder="Tags (comma-separated)">
+            <textarea id="description" placeholder="Description"></textarea>
+            <button type="submit">Add Job</button>
+        </form>
+    </section>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
